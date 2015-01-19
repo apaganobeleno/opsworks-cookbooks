@@ -1,0 +1,6 @@
+[submodule "elasticsearch"]
+	path = elasticsearch
+	url = https://github.com/freerunningtech/cookbook-elasticsearch
+[submodule "le_chef"]
+	path = le_chef
+	url = git@github.com:logentries/le_chef.git
