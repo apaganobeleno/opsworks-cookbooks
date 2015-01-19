@@ -4,5 +4,8 @@ This repository contains base chef recipes to move from Heroku to AWS's opsworks
 
 ### Database
 ### Logentries
+
+In order to read our logs we use logentries, we included logentries into our Berksfile to make the 'logentries' cookbook available, is should un on yout *setup* block.
+
 ### Cronjobs
 ### SSL
