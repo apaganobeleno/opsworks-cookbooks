@@ -1,3 +1,3 @@
 source "https://supermarket.chef.io"
 
-cookbook 'logentries', '~> 0.1.3'
+cookbook "le_chef", git: "git://github.com/logentries/le_chef.git"
