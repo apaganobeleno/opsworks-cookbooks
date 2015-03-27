@@ -1,4 +1,4 @@
-name              "dhparam”
+name              "dhparam"
 maintainer        "Tunde Agboola"
 maintainer_email  "tunde@inviteeducation.com"
 license           "MIT"
