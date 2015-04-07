@@ -8,7 +8,10 @@ if node['cronjobs'] != nil && node['cronjobs']
       path "/usr/local/bin:$PATH"
       hour cronjob['hour']
       minute cronjob['minute']
+      day cronjob['day']
+      month cronjob['month']
       command "cd /srv/www/myapp/current && #{cronjob['command']}"
+      mailto cronjob['mailto']
     end
   end
 end
