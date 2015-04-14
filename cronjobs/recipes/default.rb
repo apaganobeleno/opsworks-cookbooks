@@ -10,6 +10,7 @@ if node['cronjobs'] != nil && node['cronjobs']
       minute cronjob['minute']
       day cronjob['day']
       month cronjob['month']
+      weekday cronjob['weekday']
       command "cd /srv/www/invite_education/current && #{cronjob['command']}"
       mailto cronjob['mailto']
     end
