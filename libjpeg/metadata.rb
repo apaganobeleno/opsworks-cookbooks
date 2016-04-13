@@ -1,0 +1,6 @@
+name              "libjpeg"
+maintainer        "Tunde Agboola"
+maintainer_email  "tunde@inviteeducation.com"
+license           "MIT"
+description       "Installs libjpeg with libjpeg-dev"
+version           "0.1"
