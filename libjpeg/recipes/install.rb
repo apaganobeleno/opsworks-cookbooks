@@ -1,1 +1,1 @@
-package "libjpeg-dev"
+package "libjpeg62-turbo-dev"
