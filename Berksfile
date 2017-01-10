@@ -5,3 +5,4 @@ cookbook "newrelic"
 # Pin our version so that we still work in chef 11
 cookbook 'build-essential', '= 3.2.0'
 cookbook 'apt', '= 3.0.0'
+cookbook 'ohai', '= 3.0.1
